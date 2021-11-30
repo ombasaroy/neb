@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+  background-color: rgb(250, 250, 250);
+}
+
+.primary-color {
+  background-color: rgb(0, 63, 236);
+}
+.login-form {
+  margin-top: 160px;
+  border: solid rgb(209, 209, 209) 1px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #004fe9;
+}
+
+.login-logo {
+  text-align: center;
+}
+.login-header h4,
+.form-group label {
+  color: #004fe9;
+}
+
+.login-form {
+  background-color: #dfeaff;
+}
+.navbar-brand{
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(219, 189, 189);
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 150px;
+  padding-top: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sidebar a:hover{
+  color: rgb(161, 0, 0);
+
+
+}
+.sidebar-link-active{
+  color: black;
+}
+
+.main-content {
+  margin-left: 160px;
+  margin-top: 30px;
+
+  padding-top: 60px;
+}
+
+.main-content h6{
+  color: white;
+  margin-bottom: 20px;
+  background-color: #004fe9;
+  /* text-decoration: underline; */
+  padding: 5px;
+}
+
+.sidebar hr {
+  /* width: 500px; */
+  color: white;
+  size: 10;
+}
+
+.main-content h1{
+  color: #004fe9;
+  text-align: center;
+}
+ .president, .governor, .aspirants{
+  background-color: #b3cbfd;
+  height: 100%;
+  margin: 5px 5px;
+  border-radius: 15px;
+  
+}
+
+.dashboard-row a{
+  text-decoration: none;
+
+}
+.dashboard h5 {
+  color: rgb(139, 139, 139);
+  text-align: center;
+}
+.dashboard h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.dashboard hr{
+  color: rgb(0, 0, 0);
+  size: 10px;
+  /* width: 50%; */
+  text-align: center;
+}
+
+.party-list{
+  background-color: rgb(219, 2, 2);
+}
+.party-list h5, .party-list h1, .party-list hr{
+  color: white;
+}
+
+.dashboard-link{
+  background-color: black;
+  padding: 5px 5px;
+  margin: 0px 0px;
+}
+.bio-1{
+  background-color: rgb(243, 242, 242);
+  border-right: 5px solid white;
+}
+.bio-2{
+  background-color: rgb(243, 243, 243);
+}
+.aspirant-intro{
+  color: red;
+}
+.fa-check-circle{
+  color: rgb(0, 216, 0);
+  font-size: 24px;
+}
+.fa-times-circle{
+  color: red;
+  font-size: 24px;
+}
+
+.registration-form{
+  margin-top: 50px;
+  /* border: 1px solid rgb(231, 231, 231); */
+  padding: 10px;
+  border-radius: 5px;
+}
+.registration-form h3{
+  text-align: center;
+  color: rgb(0, 63, 236);
+
+}
+.step-1-header{
+  margin-top: 100px;
+}
+
+.fas{
+  margin-left: 30px;
+  padding-right: 20px;
+  font-size: 20px;
+  
+  color: gray;
+}
+
+.fas:hover{
+  color: black;
+}
+.fa-trash-alt:hover{
+  color: red;
+}
+.fa-eye:hover{
+  color: rgb(0, 216, 0);
+}
+.fa-user-edit:hover{
+  color: blue;
+}
+
+.fa-user-edit, .fa-eye{
+  border-right: 1px solid gray;
+}
+
+.actions{
+  text-align: center;
+  padding: 0px 20px;
+}
+.table {
+  background-color: rgb(244, 244, 255);
+}
+.btn{
+  padding: 1px 20px;
+}
+
+.btn-search, .actions a{
+  font-weight: 600;
+}
+
+.mandatory{
+  color: red;
+}
+
+.section-headers{
+  background-color: rgb(196, 196, 196); 
+  padding: 5px 10px;
+}
+.input-sections{
+  background-color: white; 
+  padding: 10px;
+}
+
+.update{
+  font-weight: 600;
+  padding: 5px;
+}
+.upload-section{
+    margin: 10px 5px; 
+    background-color: rgb(231, 231, 231); 
+    padding: 20px 40px; 
+    border-radius: 10px;
+}
+
+.upload-csv-btn{
+  margin-top: 10px;
+}
+
+.search-by-id-section{
+  background-color: rgb(231, 231, 231); 
+  padding: 20px 40px; 
+  border-radius: 10px;
+}
+.sidebar-active{
+  background-color: rgb(233, 0, 0); 
+  color: white; 
+  padding: 2px 10px; 
+  border-radius: 10px 0px 10px 10px;
+}
