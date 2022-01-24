@@ -1,4 +1,3 @@
 $(document).ready(function () {
-    $('#dtBasicExample').DataTable();
-    $('.dataTables_length').addClass('bs-select');
+       $('.type_select select').selectpicker();
   });
